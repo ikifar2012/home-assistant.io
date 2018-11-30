@@ -14,7 +14,7 @@ If you are using Hass.io or Hassbian, do not use this guide. Instead, use the [D
 </p>
 
 <p class='note warning'>
-Before exposing your Home Assistant instance to the outside world it is ESSENTIAL that you have set a password following the advice on the [http](/components/http/) page.
+Before exposing your Home Assistant instance to the outside world it is ESSENTIAL that you have set a password
 </p>
 
 
@@ -22,7 +22,7 @@ This guide was added by mf_social on 16/03/2017 and was valid at the time of wri
 
  * You can access your Home Assistant instance across your local network, and access the device that it is on via SSH from your local network.
  * You know the internal IP address of your router and can access your router's configuration pages.
- * You have already set up a password for your Home Assistant instance, following the advice on this page: [http](/docs/configuration/basic/)
+ * You have already set up a password for your Home Assistant instance, following the advice on this page: [Authentication](/docs/authentication/) 
  * You want to access your Home Assistant instance when you are away from home (ie, not connected to your local network) and secure it with a TLS/SSL certificate.
  * You have a basic understanding of the phrases I have used so far.
  * You are not currently running anything on port 80 on your network (you'd know if you were).
